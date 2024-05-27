@@ -45,8 +45,8 @@ public class SolisAlexanderJonMidtermReq {
                 //eliminating the whitespaces and splits it as individual elements
                 String[] elements = line.trim().split("\\s+");
                 //adding the elements to the 2D array
-                for (int col = 0; col < elements.length && col < 3; col++) {
-                    matrix[row][col] = new BigDecimal(elements[col]);
+                for (int column = 0; column < elements.length && column < 3; column++) {
+                    matrix[row][column] = new BigDecimal(elements[column]);
                 }
                 row++;
             }
