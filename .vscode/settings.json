@@ -18,5 +18,8 @@
         "titleBar.inactiveBackground": "#8c030e99",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#8C030E"
+    "peacock.color": "#8C030E",
+    "files.readonlyInclude": {
+        "{**/.c4z/.extsrcs/*.PROTSYM.cbl,**/.c4z/.extsrcs/*.PROTSYM.listing}": true
+    }
 }
